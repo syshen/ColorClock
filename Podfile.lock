@@ -1,0 +1,21 @@
+PODS:
+  - GoogleAnalytics-iOS-SDK (3.12):
+    - GoogleAnalytics-iOS-SDK/Core (= 3.12)
+  - GoogleAnalytics-iOS-SDK/Core (3.12)
+  - OCHamcrest (4.1.1)
+  - OCMock (3.1.2)
+  - xctest-assert-eventually (0.1.1):
+    - OCHamcrest
+
+DEPENDENCIES:
+  - GoogleAnalytics-iOS-SDK
+  - OCMock
+  - xctest-assert-eventually
+
+SPEC CHECKSUMS:
+  GoogleAnalytics-iOS-SDK: 13241762fa4aea845eb75bef6c0da3427a26e7b3
+  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  xctest-assert-eventually: 22df10fba0348d4030b746fe4853e25b15aaf830
+
+COCOAPODS: 0.36.1
