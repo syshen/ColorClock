@@ -37,7 +37,6 @@ pod 'PureLayout'
 pod 'ISO8601'
 pod 'NSDate+TimeAgo'
 pod 'GoogleAnalytics-iOS-SDK'
-e
   pod 'OCMock'
   pod "xctest-assert-eventually"
 end
