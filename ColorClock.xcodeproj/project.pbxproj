@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C002D57A687CB7402DDFF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B674944959F224B3445C /* libPods.a */; };
+		258F634CE6297F0D39EBD858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B674944959F224B3445C /* libPods.a */; };
 		80DBDC671A402904001EBAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC661A402904001EBAD5 /* main.m */; };
 		80DBDC6A1A402904001EBAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC691A402904001EBAD5 /* AppDelegate.m */; };
 		80DBDC6D1A402904001EBAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC6C1A402904001EBAD5 /* ViewController.m */; };
@@ -47,6 +49,7 @@
 		80DBDC801A402904001EBAD5 /* ColorClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorClockTests.m; sourceTree = "<group>"; };
 		8CD4BBF21FA9848027C24402 /* Pods-ColorClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorClock/Pods-ColorClock.release.xcconfig"; sourceTree = "<group>"; };
 		922EBB21598942BE9DB95852 /* Pods-ColorClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorClock/Pods-ColorClock.debug.xcconfig"; sourceTree = "<group>"; };
+		9444B674944959F224B3445C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ADE4BFD47D05066904C1A9 /* Pods-ColorClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorClockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorClockTests/Pods-ColorClockTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB24132F6F8358D2BC8C01DC /* libPods-ColorClock.a in Frameworks */,
+				00C002D57A687CB7402DDFF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA97636D1B6CAE6663DEA4D /* libPods-ColorClockTests.a in Frameworks */,
+				258F634CE6297F0D39EBD858 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +152,7 @@
 			children = (
 				3EEEC1BD0FBB63B3B8F99A7C /* libPods-ColorClock.a */,
 				17DF87DB41F83FB85AEC3829 /* libPods-ColorClockTests.a */,
+				9444B674944959F224B3445C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
