@@ -1,4 +1,8 @@
 language: objective-c
+before_install:
+- gem install cocoapods -v '0.37.2'
+- brew install xctool
+- gem install fastlane
 script:
 - make
 notifications:
