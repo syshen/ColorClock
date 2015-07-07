@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8040410A1B4BC02E00DE8D8F /* libFlurry_6.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 804041091B4BC02E00DE8D8F /* libFlurry_6.5.0.a */; };
 		8040410B1B4BC02E00DE8D8F /* libFlurry_6.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 804041091B4BC02E00DE8D8F /* libFlurry_6.5.0.a */; };
+		8040410E1B4BC0C500DE8D8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */; };
+		8040410F1B4BC0CD00DE8D8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */; };
 		80DBDC671A402904001EBAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC661A402904001EBAD5 /* main.m */; };
 		80DBDC6A1A402904001EBAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC691A402904001EBAD5 /* AppDelegate.m */; };
 		80DBDC6D1A402904001EBAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC6C1A402904001EBAD5 /* ViewController.m */; };
@@ -37,6 +39,7 @@
 		804041071B4BC02E00DE8D8F /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		804041081B4BC02E00DE8D8F /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
 		804041091B4BC02E00DE8D8F /* libFlurry_6.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.5.0.a; sourceTree = "<group>"; };
+		8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		80DBDC611A402904001EBAD5 /* ColorClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DBDC651A402904001EBAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80DBDC661A402904001EBAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8040410F1B4BC0CD00DE8D8F /* SystemConfiguration.framework in Frameworks */,
 				BB24132F6F8358D2BC8C01DC /* libPods-ColorClock.a in Frameworks */,
 				8040410A1B4BC02E00DE8D8F /* libFlurry_6.5.0.a in Frameworks */,
 			);
@@ -69,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8040410E1B4BC0C500DE8D8F /* SystemConfiguration.framework in Frameworks */,
 				9BA97636D1B6CAE6663DEA4D /* libPods-ColorClockTests.a in Frameworks */,
 				8040410B1B4BC02E00DE8D8F /* libFlurry_6.5.0.a in Frameworks */,
 			);
@@ -152,6 +157,7 @@
 		ED826AD7968E721B91870C34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */,
 				804041071B4BC02E00DE8D8F /* Flurry.h */,
 				804041081B4BC02E00DE8D8F /* FlurryWatch.h */,
 				804041091B4BC02E00DE8D8F /* libFlurry_6.5.0.a */,
