@@ -11,6 +11,8 @@
 		8040410B1B4BC02E00DE8D8F /* libFlurry_6.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 804041091B4BC02E00DE8D8F /* libFlurry_6.5.0.a */; };
 		8040410E1B4BC0C500DE8D8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */; };
 		8040410F1B4BC0CD00DE8D8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8040410D1B4BC0C500DE8D8F /* SystemConfiguration.framework */; };
+		804041101B4BC33900DE8D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC691A402904001EBAD5 /* AppDelegate.m */; };
+		804041111B4BC33E00DE8D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC6C1A402904001EBAD5 /* ViewController.m */; };
 		80DBDC671A402904001EBAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC661A402904001EBAD5 /* main.m */; };
 		80DBDC6A1A402904001EBAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC691A402904001EBAD5 /* AppDelegate.m */; };
 		80DBDC6D1A402904001EBAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBDC6C1A402904001EBAD5 /* ViewController.m */; };
@@ -345,6 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804041111B4BC33E00DE8D8F /* ViewController.m in Sources */,
+				804041101B4BC33900DE8D8F /* AppDelegate.m in Sources */,
 				80DBDC811A402904001EBAD5 /* ColorClockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
