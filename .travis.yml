@@ -1,4 +1,6 @@
 language: objective-c
+before_install:
+- gem install fastlane
 script:
 - make
 notifications:
